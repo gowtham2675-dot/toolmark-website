@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toolmark Comparison System</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    h1, h2 { text-align: center; }
+    #comparison img { width: 200px; margin: 10px; border: 2px solid black; }
+  </style>
+</head>
+<body>
+
+  <h1>Toolmark Comparison System</h1>
+
+  <!-- Upload unknown image -->
+  <h2>Upload Unknown Toolmark</h2>
+  <input type="file" id="unknownImage" accept="image/*">
+  <button id="compareBtn">Compare</button>
+
+  <!-- Comparison Result -->
+  <h2>Comparison Result</h2>
+  <div id="comparison">
+    <div>
+      <p>Unknown Toolmark:</p>
+      <img id="unknownPreview" src="" alt="">
+    </div>
+    <div>
+      <p>Closest Match:</p>
+      <img id="matchedImage" src="" alt="">
+      <p id="resultName"></p>
+      <p id="resultClass"></p>
+      <p id="resultIndividual"></p>
+      <p id="resultVisible"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
