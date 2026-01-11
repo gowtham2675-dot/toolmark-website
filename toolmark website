@@ -1,0 +1,4 @@
+toolmark-website/
+├── index.html       <-- main webpage
+├── script.js        <-- JavaScript logic
+├── images/          <-- folder for all toolmark images
